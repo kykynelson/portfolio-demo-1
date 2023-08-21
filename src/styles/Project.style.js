@@ -56,15 +56,5 @@ export const ImageContainer = styled.div`
 margin: 0;
 `;
 
-// export const ImageWithText = styled.div`
-// display: flex;
-// flex-direction: column;
-// align-items: center;
-// gap: 10px;
-// `;
 
-// export const CenteredContainer = styled.div`
-// display: flex;
-// align-items: center;
-// `;
 
