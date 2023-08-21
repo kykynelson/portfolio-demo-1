@@ -8,7 +8,11 @@ return (
         <video src={videoBg} autoPlay loop muted>
             </video>
     <VideoOverlay>
-        <h1>My name is Kya Drummond</h1>
+    <div>
+        <h1>HI</h1>
+        <h2>I'm Kya Drummond</h2>
+        <h3>A web developper</h3>
+    </div>
     </VideoOverlay>
     </HeroSectionContainer>  
 )

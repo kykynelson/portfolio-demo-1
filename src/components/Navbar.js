@@ -14,7 +14,7 @@ return  (
         <NavbarLinkContainer>
             <NavbarLink to="/">Home</NavbarLink>
             <NavbarLink to="/about">About</NavbarLink>
-            <NavbarLink to="/projects">Projects</NavbarLink>
+            <NavbarLink to="/project">Projects</NavbarLink>
             <NavbarLink to="/Contact">Contact</NavbarLink>
             <OpenLinksButton onClick={() => {
                 setExtendNavbar((curr) => !curr);
@@ -28,7 +28,7 @@ return  (
     <NavbarExtendesContainer>
             <NavbarLinkExtended to="/"> Home</NavbarLinkExtended>
             <NavbarLinkExtended to="/about">About</NavbarLinkExtended>
-            <NavbarLinkExtended to="/projects">Projects</NavbarLinkExtended>
+            <NavbarLinkExtended to="/project">Projects</NavbarLinkExtended>
             <NavbarLinkExtended to="/Contact">Contact</NavbarLinkExtended>
     </NavbarExtendesContainer>
     )}

@@ -45,7 +45,7 @@ html, body, div, span, applet, object, iframe,
     }
     body {
         line-height: 1;
-    
+        background-color: #d6cadd;
     }
     ol, ul {
         list-style: none;

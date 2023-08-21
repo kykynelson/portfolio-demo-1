@@ -3,6 +3,12 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import GlobalStyles from "./styles/GlobalStyles";
 import HeroSection from "./components/HeroSection";
+import AboutMe from "./components/AboutMe";
+import Project from "./components/Project";
+import Contact from "./components/Contact";
+
+
+
 
 
 function App() {
@@ -10,12 +16,11 @@ function App() {
   <Router>
     <GlobalStyles />
     <Navbar />
-    <HeroSection />
     <Routes>
-      <Route path='/' />
-      <Route path='/about' />
-      <Route path='/projects' />
-      <Route path='/contact' />
+      <Route path='/'element={<HeroSection />}/>
+      <Route path='/about' element={<AboutMe />}/>
+      <Route path='/project'  element={<Project />}/>
+      <Route path='/contact'  element={<Contact />}/>
     </Routes>
   </Router>
   )
@@ -23,6 +28,6 @@ function App() {
 
 export default App;
 
-//button not working to open links//
+//button not working to open links// 
 // piece of white screen shows when trying to exit screen//
-//
+// changing font
